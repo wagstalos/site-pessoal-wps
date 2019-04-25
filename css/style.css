@@ -1,0 +1,43 @@
+.navbar {
+    padding: .9375rem;
+    width: 100%;
+    z-index: 1050;
+    /* background: #e14eca; */
+    background: #00f2c3;
+    background-image: linear-gradient(to bottom left,#00f2c3,#0098f0,#00f2c3);
+    background-size: 210% 210%;
+    background-position: 100% 0;
+    background-color: #00f2c3;
+}
+.progress-container .progress .progress-bar {
+    border-radius: 0.875rem;
+    box-shadow: none;
+    background: #00cad7;
+}
+.icon.icon-primary {
+    color: #00dacf;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.carousel-caption {
+    position: relative;
+    right: 0%;
+    bottom: 0px;
+    left: 0%;
+    z-index: 10;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+.profile-page .page-header {
+    min-height:100vh;
+}
+
+.wps{
+  background: -webkit-linear-gradient(#0098f0, #00f2c3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
