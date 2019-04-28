@@ -1,3 +1,7 @@
+a {
+  color: #ffffff;
+  font-weight: 300;
+}
 .navbar {
     padding: .9375rem;
     width: 100%;
@@ -40,4 +44,52 @@ h1, h2, h3, h4, h5, h6 {
   background: -webkit-linear-gradient(#0098f0, #00f2c3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.btn-primary.btn-simple {
+    color: #ffffff;
+    border-color: #e14eca;
+    background: transparent;
+}
+.btn-success.btn-simple {
+    color: #ffffff;
+    border-color: #00f2c3;
+    background: transparent;
+}
+.mt-projetos{
+  padding-top: 15vh;
+}
+
+/*======grid port=========*/
+.grid-item {
+      width: 25%;
+      padding: 15px;
+}
+.grid-item--width2 {
+      width: 50%;
+}
+@media only screen and (max-width: 1000px) {
+  .grid-item {
+      width: 33%;
+  }
+   #voltar{
+       display: block;
+       margin-top: 8px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+   #voltar{
+       display: none;
+  }
+}
+  
+@media only screen and (max-width: 750px) {
+  .grid-item {
+        width: 50%;
+        }
+}
+  
+@media only screen and (max-width: 576px) {
+  .grid-item {
+      width: 100%;
+      }
 }
